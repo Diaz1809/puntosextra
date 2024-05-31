@@ -7,74 +7,176 @@
     <link rel="stylesheet" href="./estilos/estilos.css" />
   </head>
   <body class="body">
-    <header>
-      <div>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+    <header class="encabezado">
+      <div class="encabezado__arriba">
+        
+        <a href="#" >&#128100 Registrate</a>
+        <a href="#">Soporte Técnico</a>
+        <a href="#">Contactados</a>
+       
+                <select name="" aria-placeholder="idioma" id="select_idioma">
+                    
+                    <option value="ES">Español</option>
+                    <option value="IN">Ingles</option></select>
       </div>
+     
     </header>
-    <div class="logo">
-      <img src="" alt="logo" />
-      <p class="slogan"></p>
-    </div>
-    <hr />
-    <nav>
-      <a href="#">texto de prueba</a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="imagen de lupa"></a>
-    </nav>
-    <hr />
+     <div class="logo">
+        <img class="logopng" src="./recursos/logo.png" alt="logo" />
+        <p class="slogan">Agencia de viajes </p>
+      </div>
+      <hr />
+      <nav class="items">
+        <a href="#">Nosotros</a>
+        <a href="#">Lugares</a>
+        <a href="#">Paquetes de viaje</a>
+        <a href="#">Promociones</a>
+        <a href="#">Eventos</a>
+        <a href="#">Atención al Cliente</a>
+        <a href="#">Trabaja con Nosotros</a>
+        
+        <hr />
+      </nav>
+    <section class="seccion1">
+      <div>
+        <div>
+          <img src="./recursos/peque;o.png" alt="imagenpeque;alateralderecho" />
+          <h3><b>Peru-Argentina</b></h3>
+          <p>antes: 300 S/. <b>ahora: 180 S/.</b></p>
+        </div>
+        <div>
+          <img src="./recursos/peque;o2.png" alt="imagenpeque;alateralderecho" />
+          <h3><b>Peru-Colombia</b></h3>
+          <p>antes: 250 S/. <b>ahora: 150 S/.</b></p>
+        </div>
+        <div>
+          <img src="./recursos/peque;o3.png" alt="imagenpeque;alateralderecho" />
+          <h3><b>Peru-Brasil</b></h3>
+          <p>antes: 300 S/. <b>ahora: 150 S/.</b></p>
+        </div>
+      </div>
+      
+    </section>
     <div>
-      <div>
-        <img src="" alt="imagenpeque;alateralderecho" />
-        <h6><b>textodelaimagen</b></h6>
-        <p>descripcionbreve</p>
+        <img src="./recursos/argentina.jpeg" alt="imagenprincipal" />
       </div>
-      <div>
-        <img src="" alt="imagenpeque;alateralderecho" />
-        <h6><b>textodelaimagen</b></h6>
-        <p>descripcionbreve</p>
-      </div>
-      <div>
-        <img src="" alt="imagenpeque;alateralderecho" />
-        <h6><b>textodelaimagen</b></h6>
-        <p>descripcionbreve</p>
-      </div>
-    </div>
-    <div>
-      <img src="" alt="imagenprincipal" />
-    </div>
-    <h3>aboutJDA</h3>
+    <section class="seccion2">
+      <h3>Acerca de Nosotros</h3>
 
-    <div>
       <div>
-        <img src="" alt="imagendebajodeAbout" />
-        <h4>subtitulo</h4>
-        <br />
-        <p>descripcion</p>
-        <a href="#"><b>leer mas sobre: tatan</b></a>
-      </div>
-    </div>
-    <div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <div>
+          <video src="./recursos/VIDEO.mp4" controls></video>
+          <h4>Disfruta Nuevas experiencias Usando Nuestro Servicio de Agencia de Viaje</h4>
+          <br />
+          <p>
+            Conectamos a las personas con las oportunidades al tiempo que
+            ampliamos la comprensión de nuestro planeta y de las personas que lo
+            albergan. Tanto en vuelo como en tierra, estamos enfocados en
+            reducir nuestra huella de carbono, promover un entorno de trabajo
+            equitativo que valore la diversidad y la inclusión y vivir de
+            acuerdo con estos valores en las comunidades donde vivimos,
+            trabajamos y servimos.
+          </p>
+          <a href="#"><b>leer mas sobre Nosotros</b></a>
+        </div>
       </div>
       <div>
-        <p>nosequediceaca</p>
+        <div class="seccion2__Nosotros">
+          <img src="./recursos/ar.png" alt="" />
+          <img src="./recursos/chile.png" alt="" />
+          <img src="./recursos/co.png" alt="" />
+          <img src="./recursos/pe.png" alt="" />
+          <img src="./recursos/bra.png" alt="" />
+          <img src="./recursos/ve.png" alt="" />
+          
+        </div>
+        <div>
+          <p>Disfruta de tus Viajes</p>
+        </div>
       </div>
-    </div>
-    <div>esto para el ultimo esta jodido</div>
+    </section>
+
+    <section class="seccion3">
+      <div>
+        
+        <label for="txt_buscar">Centro de conocimiento</label>
+    <input type="text" id="txt_buscar" placeholder="Que desea buscar">
+    <button type="submit">BUSCAR</button>
+      </div>
+    </section>
+
+    <section class="seccion4">
+      <div>
+        <div>
+          <h4>
+            <b>Próximos Vuelos </b>
+          </h4>
+          <br />
+          <div>
+            <table>
+              <tr>
+                <td>
+                    <h5>
+                        JUN 20, 2024
+                    </h5>
+                    <p>
+                        Peru-Brasil
+                    </p>
+                    <a href="#">mas información</a>
+                </td>
+                <td>
+                    <h5>
+                        JUN 27, 2024
+                    </h5>
+                    <p>
+                        Peru-Argentina
+                    </p>
+                    <a href="#">mas información</a>
+                </td>
+                <td>
+                    <h5>
+                        JUL 4, 2024
+                    </h5>
+                    <p>
+                        Peru-Colombia
+                    </p>
+                    <a href="#">mas información</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="Novedades">
+          <h4>Ultimas Novedades</h4>
+          <p>Jun 13, 2024</p>
+          <p>Perú Week Argentina 2024 inicia campaña con promociones de viajes hacia el Perú</p>
+          <br />
+          <p>Jun 15, 2024</p>
+          <p>La Comisión de Promoción del Perú para la Exportación y el Turismo (PROMPERÚ) indicó que ya inició la campaña de ventas “Perú Week 2024 en Argentina”,</p>
+          
+        </div>
+      </div>
+    </section>
+    <section class="seccion5">
+      <div>
+        <h6>Mensaje del Dia</h6>
+        <p><b>"No viajamos para escapar de la vida, viajamos para que la vida no se nos escape"</b></p>
+        <button type="submit">Mira mas Mensajes</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contenedor">
+        <p>&copy; 2024 Viajes de Elite. Todos los derechos reservados.</p>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
